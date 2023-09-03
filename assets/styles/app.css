@@ -41,7 +41,7 @@ html{
     font-size: 62.5%;
     overflow-x: hidden;
     scroll-behavior: smooth;
-    scroll-padding-top: 6rem;
+    scroll-padding-top: 8.5rem;
 }
 
 section{
@@ -283,6 +283,7 @@ section{
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
+    margin-top: -7rem;
 }
 
 .contact .row .image{
@@ -424,6 +425,10 @@ section{
 @media (max-width:450px){
     html{
         font-size: 50%;
+    }
+
+    .home-bg .home{
+        min-height: 85rem;
     }
 
     .heading img{
