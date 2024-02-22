@@ -97,11 +97,15 @@ section{
     align-items: center;
     justify-content: space-between;
     position: relative;
-    padding: 1.5rem 2rem;
+    padding: 0.5rem 2rem;
 }
 
 .header .flex .logo img{
     height: 7rem;
+}
+
+.header .flex .navbar{
+    width: 72%;
 }
 
 .header .flex .navbar a{
@@ -437,5 +441,21 @@ section{
 
     .heading h3{
         font-size: 3rem;
+    }
+
+    .menu .box-container, .gallery .box-container, .team .box-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 20rem);
+    }
+
+    /* .gallery .box-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 20rem);
+    } */
+
+    .gallery .box-container img{
+        height: 18rem;
+        width: 100%;
+        object-fit: cover;
     }
 }
