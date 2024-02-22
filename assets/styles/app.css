@@ -448,11 +448,6 @@ section{
         grid-template-columns: repeat(auto-fit, 20rem);
     }
 
-    /* .gallery .box-container{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, 20rem);
-    } */
-
     .gallery .box-container img{
         height: 18rem;
         width: 100%;
